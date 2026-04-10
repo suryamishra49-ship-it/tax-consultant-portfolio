@@ -1,1 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivek Pandey | Tax & GST Consultant</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
 
+    <nav>
+        <div class="logo">Vivek<span>Pandey</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1>Income Tax & GST Consultant</h1>
+            <p>Helping businesses stay compliant and grow smoothly.</p>
+            <a href="#services" class="btn">View Services</a>
+        </div>
+    </header>
+
+    <section id="services" class="services">
+        <h2 class="section-title">Professional Services</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <i class="fas fa-file-invoice-dollar"></i>
+                <h3>Tax & GST</h3>
+                <p>ITR filing, GST registration, and monthly return filing.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-gavel"></i>
+                <h3>Legal Drafting</h3>
+                <p>POA, Rent Agreements, Partnership Deeds, and Legal Contracts.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-building"></i>
+                <h3>Business Setup</h3>
+                <p>Company, Trust, NGO (12A, 80G), and MSME registration.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-utensils"></i>
+                <h3>FSSAI & Licenses</h3>
+                <p>Food licenses, Shop Act, and Labour registration.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+    <h2 class="section-title">Portfolio & Certifications</h2>
+    
+    <div class="upload-area">
+        <h3>Admin: Update Gallery</h3>
+        <input type="file" id="image-input" accept="image/*" multiple>
+        <p>Select photos of your certificates or office to update the site.</p>
+    </div>
+
+    <div class="gallery-container" id="gallery-container">
+        <div class="gallery-item"><img src="https://via.placeholder.com/400x300?text=GST+Services" alt="GST"></div>
+        <div class="gallery-item"><img src="https://via.placeholder.com/400x300?text=Legal+Documents" alt="Legal"></div>
+    </div>
+</section>
+
+<section id="reviews" class="reviews">
+    <h2 class="section-title">Client Feedback</h2>
+    <div class="review-display" id="review-display">
+        <div class="review-card">
+            <p>"Excellent service for my GST filing. Very professional!"</p>
+            <div class="stars">★★★★★</div>
+            <span>- Rahul Sharma</span>
+        </div>
+    </div>
+
+    <div class="add-review">
+        <h3>Leave a Review</h3>
+        <form id="review-form">
+            <input type="text" id="reviewer-name" placeholder="Your Name" required>
+            <select id="reviewer-rating">
+                <option value="5">5 Stars</option>
+                <option value="4">4 Stars</option>
+                <option value="3">3 Stars</option>
+            </select>
+            <textarea id="reviewer-text" placeholder="Share your experience..." required></textarea>
+            <button type="submit" class="btn">Post Review</button>
+        </form>
+    </div>
+</section>
+
+    <section id="contact" class="contact">
+        <div class="contact-container">
+            <div class="contact-info">
+                <h2>Get In Touch</h2>
+                <p><i class="fas fa-map-marker-alt"></i> Arjunganj, Lucknow</p>
+                <p><i class="fas fa-envelope"></i> Vivek8979@gmail.com</p>
+                <p><i class="fas fa-phone"></i> +91 8381838777</p>
+            </div>
+            <form id="contact-form" class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Vivek Pandey. Trusted. Professional. Reliable.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
